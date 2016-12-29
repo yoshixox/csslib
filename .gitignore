@@ -1,0 +1,15 @@
+node_modules
+bower_components
+*.log
+*.pid
+*.bk.*
+*.BAK.*
+*.BAK
+.DS_Store
+.sass-cache
+.idea
+.node-inspectorrc
+client.dev
+client.prod
+vender
+tasks.disabled

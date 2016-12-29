@@ -1,0 +1,60 @@
+@import '../_keyframes/*'
+nojsModal(width = 70vh, height = auto, padding = 20px, color = #fff)
+  position fixed
+  top 0
+  left 0
+  right 0
+  bottom 0
+  z-index 999
+  transition opacity 0.4s
+  background-color rgba(0, 0, 0, 0.4)
+  display flex
+  transform translateY(100%)
+  opacity 0
+  &:target
+    transform translateY(0)
+    opacity 1
+  &-inner
+    display inline-block
+    position relative
+    z-index 1000
+    width width
+    height height
+    padding padding
+    overflow visible
+    margin auto
+    text-align center
+    border-radius 5px
+    background-color color
+    box-shadow 0 0 30px rgba(0, 0, 0, 0.6)
+  &-img
+    width width
+    height height
+  &-close
+    position absolute
+    z-index 1001
+    width 80px
+    height 60px
+    top -40px
+    right 0
+    background-color color
+    border-radius 5px
+    &:before,
+    &:after
+      display block
+      content ''
+      width 7px
+      height 40px
+      margin auto
+      transform rotate(-45deg)
+      background-color #aaa
+      border-radius 5px
+      position absolute
+      top 0
+      left 0
+      bottom 0
+      right 0
+    &:after
+      transform rotate(45deg)
+  {block}
+

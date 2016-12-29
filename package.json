@@ -1,0 +1,49 @@
+{
+  "name": "nojs-modal",
+  "description": "nojs projects",
+  "license": "MIT",
+  "version": "1.0.0",
+  "engines": {
+    "node": "~6",
+    "npm": "^4"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "prod": "gulp prod",
+    "deps": "npm install && bower install"
+  },
+  "config": {
+    "parseable": true,
+    "depth": 0
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.3",
+    "browser-sync": "^2.18.2",
+    "cssnano": "^3.8.1",
+    "del": "^2.2.2",
+    "gulp": "~3.9.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-env": "^0.4.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-less": "^3.3.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-pug": "^3.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "gulp-stylus": "^2.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.11",
+    "gulp.spritesmith": "^6.2.1",
+    "lodash": "latest",
+    "merge-stream": "^1.0.1",
+    "multi-stage-sourcemap": "^0.2.1",
+    "mz": "^2.6.0",
+    "require-dir": "^0.3.1",
+    "run-sequence": "^1.2.2",
+    "vinyl-buffer": "^1.0.0"
+  }
+}
